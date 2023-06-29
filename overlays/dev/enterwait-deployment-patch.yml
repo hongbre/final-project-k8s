@@ -1,0 +1,15 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: enterwait-dev
+  namespace: default
+  labels:
+    env: dev
+spec:
+  selector:
+    matchLabels:
+      app: enterwait-dev
+  template:
+    metadata:
+      labels:
+        app: enterwait-dev

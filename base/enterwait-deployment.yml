@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: enterwait-dev
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: enterwait-dev
+  template:
+    metadata:
+      labels:
+        app: enterwait-dev
+    spec:
+      containers:
+        - name: enterwait-dev
+          image: 159960117927.dkr.ecr.ap-northeast-2.amazonaws.com/enterwait-dev:3a7328073c0454a95fe734de47b5676181c37e4f
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 3000

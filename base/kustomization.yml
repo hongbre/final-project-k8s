@@ -1,0 +1,5 @@
+apiVersion: kustomize.confige.k8s.io/v1beta1
+kind: Kustomization
+resources:
+  - enterwait-deployment.yml
+  - enterwait-service.yml
