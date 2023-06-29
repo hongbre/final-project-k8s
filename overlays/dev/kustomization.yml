@@ -6,7 +6,7 @@ images:
   newTag: 88f00d537ee885ab981126980e3c0a5fe8396aab
 - name: 159960117927.dkr.ecr.ap-northeast-2.amazonaws.com/enterwait-dev
   newName: 159960117927.dkr.ecr.ap-northeast-2.amazonaws.com/enterwait-dev
-  newTag: 3a7328073c0454a95fe734de47b5676181c37e4f
+  newTag: be870ca335651f6a9e4da7aef1306a6fd5f9ae36
 resources:
 - ../../base
 patchesStrategicMerge:
