@@ -6,7 +6,6 @@ images:
   newTag: 3a7328073c0454a95fe734de47b5676181c37e4f
 resources:
 - ../../base
-#patchesStrategicMerge:
-patches:
+patchesStrategicMerge:
 - enterwait-deployment-patch.yml
 - enterwait-service-patch.yml
